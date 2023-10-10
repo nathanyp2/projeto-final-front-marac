@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>AUMIGO SCHOOL</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .img-fluid {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid top-bar bg-dark text-light px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a class="small text-light" href="#">Início</a></li>
+                    <li class="breadcrumb-item"><a class="small text-light" href="#">Carreira</a></li>
+                    <li class="breadcrumb-item"><a class="small text-light" href="#">Termos</a></li>
+                    <li class="breadcrumb-item"><a class="small text-light" href="#">Privacidade</a></li>
+                </ol>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Siga-nos:</small>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn-lg-square text-primary border-end rounded-0" href=""><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn-lg-square text-primary border-end rounded-0" href=""><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn-lg-square text-primary border-end rounded-0" href=""><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn-lg-square text-primary pe-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <h1 class="text-primary m-0">Aumigo School</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Início</a>
+                <a href="about.html" class="nav-item nav-link">Sobre Nós</a>
+                <a href="service.html" class="nav-item nav-link">Serviços</a>
+                <a href="product.html" class="nav-item nav-link">Nossa Equipe</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="team.html" class="dropdown-item">Instalação e Atividades</a>
+                        <a href="testimonial.html" class="dropdown-item">Depoimento dos Clientes</a>
+                        <a href="404.html" class="dropdown-item">Preços e Planos</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Fale Conosco</a>
+            </div>
+            <div class=" d-none d-lg-flex">
+                <div class="flex-shrink-0 btn-lg-square border border-light rounded-circle">
+                    <i class="fa fa-phone text-primary"></i>
+                </div>
+                <div class="ps-3">
+                    <small class="text-primary mb-0">Contato</small>
+                    <p class="text-light fs-5 mb-0">+55 21 99950-3758</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/primeiroCarrocel.gif" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8">
+                                <p class="text-primary text-uppercase fw-bold mb-2">Bem-vindo a Aumigo School</p>
+                                <h1 class="display-1 text-light mb-4 animated slideInDown">Uma Creche boa para Cachorro
+                                </h1>
+                                <p class="text-light fs-5 mb-4 pb-3">Nós amamos cuidar dos seus cãezinhos! Na nossa
+                                    creche, eles são tratados com muito carinho e desfrutam de atividades divertidas e
+                                    enriquecedoras.</p>
+                                <a href="team.html" class="btn btn-primary rounded-pill py-3 px-5">Conheça nossa
+                                    infraestrutura</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/segundoCarrocel2.gif" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8">
+                                <p class="text-primary text-uppercase fw-bold mb-2">A melhor Creche do Rio de Janeiro.
+                                </p>
+                                <h1 class="display-1 text-light mb-4 animated slideInDown">O Lugar ideal para o seu
+                                    cãozinho.</h1>
+                                <p class="text-light fs-5 mb-4 pb-3">Temos descontos para pacotes semanais e mensais.
+                                </p>
+                                <a href="404.html" class="btn btn-primary rounded-pill py-3 px-5">Leia Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="fact-item bg-light rounded text-center h-100 p-5">
+                        <i class="fa fa-certificate fa-4x text-primary mb-4"></i>
+                        <p class="mb-2">Anos de Experiência</p>
+                        <h1 class="display-5 mb-0" data-toggle="counter-up">10</h1>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="fact-item bg-light rounded text-center h-100 p-5">
+                        <i class="fa fa-users fa-4x text-primary mb-4"></i>
+                        <p class="mb-2">Profissionais Habil</p>
+                        <h1 class="display-5 mb-0" data-toggle="counter-up">35</h1>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="fact-item bg-light rounded text-center h-100 p-5">
+                        <i class="fa fa-bread-slice fa-4x text-primary mb-4"></i>
+                        <p class="mb-2">Nosso Serviços</p>
+                        <h1 class="display-5 mb-0" data-toggle="counter-up">3</h1>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="fact-item bg-light rounded text-center h-100 p-5">
+                        <i class="fa fa-cart-plus fa-4x text-primary mb-4"></i>
+                        <p class="mb-2">Já atendemos</p>
+                        <h1 class="display-5 mb-0" data-toggle="counter-up">3000</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts End -->
+
+
+    <!-- About Start -->
+    <!--<div class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row img-twice position-relative h-100">
+                        <div class="col-6">
+                            <img class="img-fluid rounded" src="img/foto1.png" alt="">
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid rounded" src="img/about2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <p class="text-primary text-uppercase mb-2">Sobre Nós</p>
+                        <h1 class="display-6 mb-4">Segurança em primeiro lugar</h1>
+                        <p>Nossa creche é totalmente equipada com cercas seguras, sistema de câmeras e profissionais treinados em segurança canina.</p>
+                        <h1 class="display-6 mb-4">Diversão garantida</h1>
+                        <p>Seu cachorro nunca ficará entediado conosco, contando com atividades divertidas e variadas durante todo o dia.</p>
+                        <h1 class="display-6 mb-4">Cuide do seu cachorro</h1>
+                        <p>Com nossa creche, você pode ter a certeza de que seu pet está em boas mãos enquanto você trabalha ou viaja.</p>
+                        <h1 class="display-6 mb-4">Serviço personalizado</h1>
+                        <p>Nós entendemos que cada cachorro é único e por isso temos um serviço personalizado para cada um, de acordo com suas necessidades e personalidade.</p>
+                        <div class="row g-2 mb-4">
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Serviços de Qualidade
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Atendimento Personalizado
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Agendamento Online
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Segurança Garantida
+                            </div>
+                        </div>
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- About End -->
+    <!--first page start-->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row img-threetimes position-relative h-100">
+                        <div class="col-4 align-self-midle">
+                            <img class="img-fluid rounded" src="img/index19.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-midle">
+                            <img class="img-fluid rounded" src="img/index20.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-midle">
+                            <img class="img-fluid rounded" src="img/index21.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-midle">
+                            <img class="img-fluid rounded" src="img/index10.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-midle">
+                            <img class="img-fluid rounded" src="img/index11.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-midle">
+                            <img class="img-fluid rounded" src="img/index12.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-midle">
+                            <img class="img-fluid rounded" src="img/index4.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-midle">
+                            <img class="img-fluid rounded" src="img/index2.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-midle">
+                            <img class="img-fluid rounded" src="img/index3.jpg" alt="">
+                        </div>
+                        <div class="col-12 align-self-center">
+                            <img class="img-fluid rounded" src="img/index1.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-end">
+                            <img class="img-fluid rounded" src="img/index5.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-end">
+                            <img class="img-fluid rounded" src="img/index9.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-end">
+                            <img class="img-fluid rounded" src="img/index7.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-end">
+                            <img class="img-fluid rounded" src="img/index13.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-end">
+                            <img class="img-fluid rounded" src="img/index14.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-end">
+                            <img class="img-fluid rounded" src="img/index15.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-end">
+                            <img class="img-fluid rounded" src="img/index16.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-end">
+                            <img class="img-fluid rounded" src="img/index17.jpg" alt="">
+                        </div>
+                        <div class="col-4 align-self-end">
+                            <img class="img-fluid rounded" src="img/index18.jpg" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <p class="text-primary text-uppercase mb-2"></p>
+                        <h3 class="display-6 mb-4">As benefícios de uma creche para cachorro</h3>
+                        <p>As creches para cachorro oferecem uma variedade de benefícios que ajudam não só o cão, mas
+                            também o dono. Descubra aqui todas as vantagens de investir em uma creche para o seu pet.
+                        </p>
+                        <h3 class="display-6 mb-4">A importância de ter uma creche para cachorro</h3>
+                        <p>Os cachorros são animais sociáveis, então é essencial que eles passem tempo interagindo com
+                            outros cães. As creches para cachorro oferecem um ambiente seguro para essa socialização.
+                            Além disso, as creches ajudam a evitar que os cães se sintam sozinhos e entediados em casa.
+                        </p>
+                        <h4>- Diversão garantida</h4>
+                        <p>Na creche, os cães têm acesso a diversos brinquedos e atividades recreativas.</p>
+                        <h4>- Reduz o estresse</h4>
+                        <p>Os cães podem se distrair com colegas de brincadeira e esquecer dos problemas do dia a dia.
+                            <p>
+                                <h4>- Faz bem para a saúde</h4>
+                                <p>A atividade física ajuda a manter o peso saudável e evita problemas de saúde.</p>
+                                <h4>- Descanso necessário</h4>
+                                <p>Os cães têm um tempo especifico para descansar para que a brincadeira continue
+                                    saudável.</p>
+                                <h3 class="display-6 mb-2">Benefícios para o cão</h3>
+                                <p>Frequentar uma creche para cachorro melhora a saúde mental e física dos pets. Além
+                                    disso, atividades em grupo ensinam habilidades de comunicação que não são possíveis
+                                    em casa</p>
+                                <h4>- Socialização </h4>
+                                <p>Majoritariamente cachorros nervosos ou para uma convivência saudável com hospedes em
+                                    casa.</p>
+                                <h4>- Exercício </h4>
+                                <p>Preciso de atividade no dia a dia para se manter saudável e evitar obesidade.<p>
+                                        <h4>- Alívio do estresse </h4>
+                                        <p>Companhia, brinquedos e atividades lúdicas ajudam os cães a relaxarem e se
+                                            divertirem.</p>
+                                        <h4>- Aprende regras </h4>
+                                        <p>Regras de boa comportamento devem ser seguidas em creches para cachorro,
+                                            resultando em um comportamento melhor.</p>
+                                        <h3 class="display-6 mb-4">Benefícios para o dono</h3>
+                                        <p>Uma creche para cachorro não é benéfica apenas para o pet. Os donos também
+                                            desfrutam de vantagens e comodidades.</p>
+                                        <h4>- Flexibilidade</h4>
+                                        <p>Não é necessário se preocupar com horários rígidos de entrega e recolhimento
+                                            do animal de estimação.</p>
+                                        <h4>- Tranquilidade</h4>
+                                        <p>Os donos de animais podem trabalhar e viajar com tranquilidade, sem se
+                                            preocupar com o bem-estar de seus pets.<p>
+                                                <h4>- Mais tempo livre</h4>
+                                                <p>Os donos que deixam seus pets na creche para cachorro por um período
+                                                    mais longo, se beneficiam com tempo livre para outras atividades.
+                                                </p>
+
+
+
+                                                <h3 class="display-6 mb-4">Serviço personalizado</h3>
+                                                <p>Nós entendemos que cada cachorro é único e por isso temos um serviço
+                                                    personalizado para cada um, de acordo com suas necessidades e
+                                                    personalidade.</p>
+                                                <div class="row g-2 mb-4">
+                                                    <div class="col-sm-6">
+                                                        <i class="fa fa-check text-primary me-2"></i>Serviços de
+                                                        Qualidade
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <i class="fa fa-check text-primary me-2"></i>Atendimento
+                                                        Personalizado
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <i class="fa fa-check text-primary me-2"></i>Agendamento Online
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <i class="fa fa-check text-primary me-2"></i>Segurança Garantida
+                                                    </div>
+                                                </div>
+                                                <a class="btn btn-primary rounded-pill py-3 px-5"
+                                                    href="service.html">Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--first page end-->
+
+
+    <!-- Product Start -->
+
+        
+            <div class="bg-primary text-light rounded-bottom p-5 my-6 mt-0">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="display-4 text-light mb-0">A melhor Creche do Rio de Janeiro</h1>
+                    </div>
+                    <div class="col-lg-6 text-lg-end">
+                        <div class="d-inline-flex align-items-center text-start">
+                            <i class="fa fa-phone-alt fa-4x flex-shrink-0"></i>
+                            <div class="ms-4">
+                                <p class="fs-5 fw-bold mb-0">Contato</p>
+                                <p class="fs-1 fw-bold mb-0">+55 21 99950-3758</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+   
+    <!--
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary text-uppercase mb-2">// Nossos Serviços</p>
+                <h1 class="display-6 mb-4">Explore as categorias de serviços</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            <div class="d-inline-block border border-primary rounded-pill px-3 mb-3">A partir de R$ 40,00 a diária.</div>
+                            <h3 class="mb-3">Creche de Dia</h3>
+                            <span>Nós oferecemos um serviço abrangente de creche de dia para seu cachorro, para que você possa deixá-lo sempre que precisar trabalhar ou viajar.
+
+                               <br><br>- Atividades em grupo para estimular a socialização.
+                                
+                               <br>- Espécios internos e externos para brincadeira.
+                                
+                               <br>-Banho e tosa opcionais.</span>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/Creche do dia.jpg" alt="">
+                            <div class="product-overlay">
+                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">A partir de R$ 80,00 a diária.</div>
+                            <h3 class="mb-3">Hospedagem</h3>
+                            <span>Oferecemos um ambiente seguro e confortável para abrigar seu cachorro quando você precisa se ausentar.
+
+                                <br><br> - Suítes privadas.
+
+                                <br> - Pernoite em ambiente climatizado e monitorado.
+                                
+                                <br> - Cuidados individuais de alimentação e atividades.</span>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/Hospedagem.jpg" alt="">
+                            <div class="product-overlay">
+                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">A partir de R$ 30,00 por passeio.</div>
+                            <h4 class="mb-3">Passeios com Cães</h4>
+                            <span>Oferecemos um serviço personalizado de passeios ao ar livre para que seu pet tenha contato com a natureza.
+
+                                <br><br> - Passeios acompanhados por profissionais.
+                                
+                                <br> - Rota e locais específicos de acordo com o porte e personalidade do seu cachorro.
+                                
+                                <br> - Atividades que promovem o enriquecimento ambiental e físico.</span>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/passeio de cachorro.jpg" alt="">
+                            <div class="product-overlay">
+                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Product End -->
+
+
+    <!-- Service Start -->
+    <!--<div class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="text-primary text-uppercase mb-2">// Our Services</p>
+                    <h1 class="display-6 mb-4">What Do We Offer For You?</h1>
+                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <div class="row gy-5 gx-4">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-bread-slice text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Quality Products</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-birthday-cake text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Custom Products</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-cart-plus text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Online Order</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-truck text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Home Delivery</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row img-twice position-relative h-100">
+                        <div class="col-6">
+                            <img class="img-fluid rounded" src="img/service-1.jpg" alt="">
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid rounded" src="img/service-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Service End -->
+
+
+    <!-- Team Start -->
+    <!--<div class="container-xxl py-6">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary text-uppercase mb-2">Nossa Equipe</p>
+                <h1 class="display-6 mb-4">Nós temos os melhores profissionais do Mercado</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item text-center rounded overflow-hidden">
+                        <img class="img-fluid" src="img/gabriela.jpg" alt="">
+                        <div class="team-text">
+                            <div class="team-title">
+                                <h5>Gabriela</h5>
+                                <span>Gabriela tem formação em cuidados animais e é especialista em ensinar truques simples que vão deixar seu pet ainda mais inteligente e feliz.</span>
+                            </div>
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item text-center rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Paola.jpg" alt="">
+                        <div class="team-text">
+                            <div class="team-title">
+                                <h5>Paola</h5>
+                                <span>Com ampla experiência em cuidados caninos, ela é a responsável pela gestão da creche e treinamento da equipe.</span>
+                            </div>
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item text-center rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Julia.jpg" alt="">
+                        <div class="team-text">
+                            <div class="team-title">
+                                <h5>Júlia</h5>
+                                <span>Especializada em cuidados, Júlia adora executar atividades que incentivam a atividade física dos cãezinhos.</span>
+                            </div>
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item text-center rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Raphael.jpg" alt="">
+                        <div class="team-text">
+                            <div class="team-title">
+                                <h5>Raphael</h5>
+                                <span>Raphael tem a habilidade na interação, delicadeza e simpatia necessárias para garantir que seu cachorro vá se sentir mais do que amado!</span>
+                            </div>
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <!--<div class="container-xxl bg-light my-6 py-6 pb-0">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary text-uppercase mb-2">Depoimentos de Clientes</p>
+                <h1 class="display-6 mb-4">Mais de 3000 atendimentos</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item bg-white rounded p-4">
+                    <div class="d-flex align-items-center mb-4">
+                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/joseCarlos.jpg" alt="">
+                        <div class="ms-4">
+                            <h5 class="mb-1">José Carlos</h5>
+                            <span>Professor</span>
+                        </div>
+                    </div>
+                    <p class="mb-0">"Antes mesmo de escolher onde iríamos morar no Rio de Janeiro já sabíamos que a COOKIE iria para creche Aumigo School! O instinto e a procura deram muito certo, ela hoje não fica um dia sem pedir para ir na creche! Obrigado equipe maravilhosa, que faz o que ama! Nos encontramos em vocês."</p>
+                </div>
+                <div class="testimonial-item bg-white rounded p-4">
+                    <div class="d-flex align-items-center mb-4">
+                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/luciana.jpg" alt="">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Luciana Oliveira</h5>
+                            <span>Advogada</span>
+                        </div>
+                    </div>
+                    <p class="mb-0">"A abertura do Aumigo School ainda estava sendo preparada pelos proprietários, quando me interessei em saber do que se trataria o local. A empatia com eles foi imediata, e senti confiança em deixar a minha Lili aos cuidados da creche quando inaugurou.Lili foi a primeira cliente e lá continua até hoje, pois laços de amizade se criaram e prevalece a segurança de deixar minha filhinha peluda aos cuidados do pessoal Aumigo School. 
+                        Ela prefere interagir com humanos e adoro a atenção que recebe no local..</p>
+                </div>
+                <div class="testimonial-item bg-white rounded p-4">
+                    <div class="d-flex align-items-center mb-4">
+                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/marcos.jpg" alt="">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Marcos Antônio</h5>
+                            <span>Engenheiro</span>
+                        </div>
+                    </div>
+                    <p class="mb-0">"A Aumigo School é sinônimo de profissionalismo, dedicação e amor por nossos pet's. Já se passaram mais de 4/5 anos e a qualidade na prestação do serviço se torna cada dia mais incrível. Sem dúvida, a melhor creche/hotel que existe no Rio de Janeiro.Obrigado pela parceria e amor pelo meus filhos."</p>
+                </div>
+                <div class="testimonial-item bg-white rounded p-4">
+                    <div class="d-flex align-items-center mb-4">
+                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-4.jpg" alt="">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Laura</h5>
+                            <span>Farmacêutica</span>
+                        </div>
+                    </div>
+                    <p class="mb-0">
+                        "Me faltam palavras pra descrever todo o carinho e cuidado que a equipe da Aumigos School tem com meus dois filhotes, Bino e Gege. É falar a palavra creche que eles começam a pular de alegria. Brincam o dia todo com os AUmigos, gastam energia, participam de atividades educativas. Sem contar que ficam no hotelzinho sempre que preciso viajar ou me ausentar. E viajo com toda a tranquilidade, pois sei que estão sendo tão bem cuidados quanto eu mesmo cuido. Nós amamos a Aumigo School."</p>
+                </div>
+            </div>
+            <div class="bg-primary text-light rounded-top p-5 my-6 mb-0 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h1 class="display-4 text-light mb-0">Inscreva-se no nosso boletim de notícias.</h1>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div class="position-relative">
+                            <input class="form-control bg-transparent border-light w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-dark py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Inscrever-se</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Nosso Endereço</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Rua real grandeza, 372 - Botafogo - Rio
+                        Janeiro</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+55 21 99950-3758</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>contato@aumigoschool.com.br</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Links Rapidos</h4>
+                    <a class="btn btn-link" href="about.html">Sobre Nós</a>
+                    <a class="btn btn-link" href="contact.html">Fale Conosco</a>
+                    <a class="btn btn-link" href="service.html">Nosso Serviços</a>
+                    <a class="btn btn-link" href="#">Termos e Condições</a>
+                    <a class="btn btn-link" href="#">Suporte</a>
+                </div>
+                <!--<div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Links Rapidos</h4>
+                    <a class="btn btn-link" href="about.html">Sobre Nós</a>
+                    <a class="btn btn-link" href="contact.html">Fale Conosco</a>
+                    <a class="btn btn-link" href="service.html">Nosso Serviços</a>
+                    <a class="btn btn-link" href="">Termos e Condições</a>
+                    <a class="btn btn-link" href="">Suporte</a>-->
+                
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Galeria de Fotos</h4>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="img/galeriafotos1.jpg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="img/galeriafotos2.jpg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="img/galeriafotos3.jpg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="img/galeriafotos5.jpg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="img/galeriafotos6.jpg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="img/galeriafotos7.jpg" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright text-light py-4 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a href="#">Aumigo School</a>, Todos os direitos reservados.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a href="https://htmlcodex.com">Nathany's School</a>
+                    <br>Distributed By: <a class="border-bottom" href="https://themewagon.com"
+                        target="_blank">ThemeWagon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
